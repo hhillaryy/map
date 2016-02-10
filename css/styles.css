@@ -9,15 +9,20 @@
   position: relative;
 }*/
 
+.masthead {
+  position: absolute;
+}
+
 header {
-  background-color: #cccccc;
+  background-color: #b6d2ad;
   padding: 20px;
   text-align: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
+  z-index: 1;
+
 }
 
 .main-content {
@@ -33,14 +38,23 @@ header {
 img {
   height: 75px;
   width: 75px;
+  z-index: -1;
 }
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+}
+
 p {
   margin: 0;
-  background-color: white;
+  background-color: #f0f6ef;
+  border-radius: 3px;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bolder;
+  font-family: 'Josefin Slab', serif;
 }
+
 #addax {
   position: absolute;
   left: 865px;
@@ -50,13 +64,25 @@ p {
 #humpback {
   position: absolute;
   left: 875px;
-  bottom: 5px;
+  bottom: 3px;
+  text-align: center;
 }
+
+ #humpback p {
+   padding: 2px;
+   margin: 2px;
+ }
 
 #dolphin {
   position: absolute;
   left: 1260px;
   bottom: 640px;
+  text-align: center;
+}
+
+#dolphin p {
+  padding: 2px;
+  margin: 2px;
 }
 
 #dhole {
