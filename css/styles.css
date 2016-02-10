@@ -8,6 +8,7 @@
 /*body {
   position: relative;
 }*/
+
 header {
   background-color: #cccccc;
   padding: 20px;
@@ -21,21 +22,78 @@ header {
 
 .main-content {
   background-image: url("../images/world-map.jpg");
-  background-size: cover;
-  height: 750px;
+  background-repeat: no-repeat;
+  height: 900px;
   position: relative;
   width: 100%;
   margin: 150px auto;
-  top: 200px;
+  /*top: 50px;*/
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height: 75px;
+  width: 75px;
+}
+p {
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
+}
+#addax {
+  position: absolute;
+  left: 865px;
+  bottom: 500px;
 }
 
-#addax img {
+#humpback {
   position: absolute;
-  left: 800px;
+  left: 875px;
+  bottom: 5px;
+}
+
+#dolphin {
+  position: absolute;
+  left: 1260px;
+  bottom: 640px;
+}
+
+#dhole {
+  position: absolute;
+  left: 1050px;
   bottom: 600px;
+}
+
+#monkey {
+  position: absolute;
+  left: 400px;
+  bottom: 500px;
+}
+
+#cat {
+  position: absolute;
+  left: 870px;
+  bottom: 725px;
+}
+
+#wallaby {
+  position: absolute;
+  left: 1450px;
+  bottom: 235px;
+}
+#manatee {
+  position: absolute;
+  left: 550px;
+  bottom: 350px;
+}
+#rabbit {
+  position: absolute;
+  left: 350px;
+  bottom: 660px;
+}
+#sealion {
+  position: absolute;
+  left: 1550px;
+  bottom: 550px;
 }
