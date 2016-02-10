@@ -17,14 +17,25 @@ header {
   left: 0;
   width: 100%;
   height: 10%;
-
 }
 
 .main-content {
   background-image: url("../images/world-map.jpg");
   background-size: cover;
   height: 750px;
+  position: relative;
   width: 100%;
   margin: 150px auto;
   top: 200px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+#addax img {
+  position: absolute;
+  left: 800px;
+  bottom: 600px;
 }
